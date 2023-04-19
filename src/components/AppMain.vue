@@ -41,4 +41,25 @@ main{
 	width: calc(100% / 5 - 50px);
 	height: 350px;
 }
+
+@media screen and (min-width:1200px) {
+	.myCard{
+	width: calc(100% / 3 - 100px);
+	height: 350px;
+}
+}
+
+@media screen and (min-width:768px) {
+	.myCard{
+	width: calc(100% / 2 - 200px);
+	height: 350px;
+}
+}
+
+@media screen and (max-width:768px) {
+	.myCard{
+	width: calc(100% / 1 - 80px);
+	height: 350px;
+}
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
 	<form class="d-flex justify-content-center" @submit.prevent="newSearch">
-		<div class="row row-cols-auto flex-wrap">
-			<div class="col-6">
+		<div class="d-flex flex-wrap flex-column flex-md-row align-item-center justify-content-center">
+			<div class="">
 				<select name="type" id="type" class="form-select" v-model="cards.search.archetype">
 					<option value="" selected>Choose</option>
 					<option :value="archetype.archetype_name" v-for="(archetype, i) in optionsValue" :key="i">
@@ -11,7 +11,7 @@
 			</div>
 
 
-			<div class="col-6">
+			<div class="">
 				<button class="btn btn-primary mx-2" type="submit" >Search</button>
 				<button class="btn btn-danger" type="reset" @click="resetSearch">Reset</button>
 			</div>
@@ -48,4 +48,5 @@ export default {
 }
 </script> 
  
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+</style>

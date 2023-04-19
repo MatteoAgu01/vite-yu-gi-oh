@@ -1,6 +1,6 @@
 <template>
 	<header class="w-100">
-		<div class="d-flex align-items-center">
+		<div class="d-flex flex-column align-items-center flex-lg-row">
 			<div class="px-3">
 				<img id="logoYuGiOh" src="../../public/img/dowload.jpeg" alt="logo">
 			</div>
@@ -31,5 +31,12 @@ header {
 
 #logoYuGiOh {
 	scale: 80%;
+
+}
+
+@media screen and (max-width:768px) {
+	#logoYuGiOh {
+		width: 200px;
+	}
 }
 </style>
