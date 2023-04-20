@@ -9,7 +9,7 @@
 
 <script>
 import AppFilter from './components/AppFilter.vue'
-import AppHeader from './components/Appheader.vue'
+import AppHeader from './components/AppHeader.vue'
 import AppMain from './components/AppMain.vue'
 import { cards } from './data/store'
 import axios from 'axios'
